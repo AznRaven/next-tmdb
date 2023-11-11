@@ -33,8 +33,8 @@ export default async function MovieDetail({ params }) {
           height={1000}
           priority
         />
+        <p className="flex justify-center">{res.overview}</p>
       </div>
-      <p className="flex justify-center">{res.overview}</p>
     </div>
   );
 }
