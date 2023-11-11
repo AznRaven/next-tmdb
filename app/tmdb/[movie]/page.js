@@ -25,15 +25,15 @@ export default async function MovieDetail({ params }) {
       <h2 className="text-sm bg-green-600 inline-block my-2 py-2 px-4 rounded-md">
         {res.status}
       </h2>
-      <div className="flex justify-center">
+      <div className="flex flex-col items-center w-3/4 mx-auto">
         <Image
-          className="my-12"
+          className=""
           src={imgPath + res.backdrop_path}
           width={1000}
           height={1000}
           priority
         />
-        <p className="flex justify-center">{res.overview}</p>
+        <p className="flex justify-center my-10">{res.overview}</p>
       </div>
     </div>
   );
