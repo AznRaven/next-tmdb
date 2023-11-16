@@ -15,6 +15,15 @@ module.exports = {
       gridTemplateColumns: {
         fluid: 'repeat(auto-fit,minmax(15rem,1fr))',
       },
+      colors:{
+        nav: '#1822f',
+        page: '#2b3441',
+        card: '#47566a',
+        'card-hover': '#4f5e74',
+        'default-text': '#f1f3f5',
+        'blue-accent': '#0084d4',
+        'blue-accent-hover': '#09fff',
+      }
     },
   },
   plugins: [],

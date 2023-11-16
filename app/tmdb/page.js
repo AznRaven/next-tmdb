@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Movie from "../components/Movie";
+import Movie from "../(components)/Movie";
 
 Movie
 export default async function Home() {
