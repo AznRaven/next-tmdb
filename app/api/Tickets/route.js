@@ -14,7 +14,7 @@ export async function POST(req) {
   }
 }
 export async function GET() {
-  console.log('post ran')
+  console.log('get ran')
   try {
     const tickets = await Ticket.find();
 
